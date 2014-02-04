@@ -28,10 +28,12 @@ library
   build-depends:        base >=3 && <5,
                         deepseq,
                         erf >= 2,
-                        vector >= 0.7,
+                        primitive,
+                        vector    >= 0.7,
                         vector-th-unbox
   exposed-modules:
     Numeric.MathFunctions.Constants
+    Numeric.MathFunctions.Comparison
     Numeric.Polynomial
     Numeric.Polynomial.Chebyshev
     Numeric.SpecFunctions
